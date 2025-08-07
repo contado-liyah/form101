@@ -6,35 +6,61 @@
     <title>Form101</title>
 </head>
 <body>
-    <h1 align="center">Lalisa Manobal a member of a kpop group, blackpink.</h1>
-    <img src="https://images.wallpapersden.com/image/download/lalisa-manoban-blackpink-2020_bGhobmWUmZqaraWkpJRnZ2ltrWdnaW0.jpg" alt="Cat" width:"300" height="200"> 
-    <hr>
-    <form>
-    <label for="name">Name:</label> <br>
-    <input type="text" id="required username"> <label>Age:</label> 
-    <input type="text" id="age" name="age"><br>
-    <label for="addess">Address:</label><br>
-    <input type="text" id="Address" name="addess">
-    
-    <label>Sex:</label>
-    <input type="radio" id="male" name="Sex" value="male">
-    <label for="male">Male</label>
-    <input type="radio" id="sex" name="female">
-    <label for="female">Female</label><br><br>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email">
-    
-    <label for="hobbies">Hobbies:</label>
-    <input type="checkbox"> <label for="dancing">dancing</label>
-    <input type="checkbox"> <label for="singing">singing</label>
-    <br>
-    <br>
-    <label for="cellphone number">Cellphone Number:</label>
-    <input type="text" id="cellphone number" name="cellphone number">
-    <br>
-    <br>
-    <input type="submit">
-    </form>
+  <table cellpadding="30">
+  <tr>
+    <td><img src="manobal.jpg" alt="Manobal" width="100" height="90"></td>
+    <td padding-left: 50;>Lalisa Manobal a member of a kpop group, blackpink.</td>
+  </tr>
+  </table>
+  <br>
+  <table>
+    <tr>
+      <td>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address"><br><br>
+        
+        <label for="email">E-mail Add:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="phone">Cellphone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+      </td>
+      
+      <td style="padding-left: 50px;">
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br><br>
+        
+        <label>Sex:</label><br>
+        <input type="radio" id="male" name="sex" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="sex" value="female">
+        <label for="female">Female</label><br><br>
+        
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="playing-guitar" name="hobbies" value="playing-guitar">
+        <label for="biking">Playing Guitar</label><br>
+        
+        <input type="checkbox" id="singing" name="hobbies" value="Singing">
+        <label for="singing">Singing</label><br>
+        
+        <input type="checkbox" id="dancing" name="hobbies" value="Dancing">
+        <label for="dancing">Dancing</label><br>
+        
+        <input type="checkbox" id="photography" name="hobbies" value="photography">
+        <label for="Photography">Photography</label><br>
+        
+        <input type="checkbox" id="eating" name="hobbies" value="eating">
+        <label for="eating">Eating</label><br>
+      </td>
+    </tr>
+  </table>
+  <br>
+    <div style="text-align:left;">
+  <input type="submit" value="Submit">
+    </div>
+</form>
 </body>
 </html>
